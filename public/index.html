@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Timer</title>
+   <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="logo" href="/">AppStarter</a>
+        <nav>
+          <ul>
+            <li><a href="">Features</a></li>
+            <li><a href="">Video Tour</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="">Pricing</a></li>
+          </ul>
+          <button>Get it free</button>
+        </nav>
+      </div>
+      <div class="header__content">
+        <div class="wrapper">
+          <div class="app_icon"></div>
+          <h1>AppStarter. <span>Best landing page for web and mobile apps</span></h1>
+          <div class="btn-area">
+            <button class="download">Download Now</button>
+            <button>Watch Video</button>
+          </div>
+        </div>
+        <div class="img">
+          <img src="./images/Tablet.png" alt="tablet">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="plan">
+      <div class="container">
+        <div class="plan__content">
+          <div class="promo">
+            <h3>Choose <span>your plan</span></h3>
+            <p>This sounded nonsense to Alice, so she said
+              nothing, but set off at once toward the Red
+              Queen. To her surprise, she lost sight of her
+              in a moment, and found herself walking.</p>
+            <div class="select">
+              <p>Select the number of licenses:</p>
+              <div class="select-container">
+                <select>
+                  <option value="1">1</option>
+                </select>
+                <span class="arrow"></span>
+              </div>
+            </div>
+            <div class="promo-code">
+              <form >
+                <label for="promo-code">Enter the promo code:</label>
+                <input id="promo-code" type="text" placeholder="Promo code">
+                <button>Apply</button>
+              </form>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card professional">
+              <div class="title"><span>Professional</span></div>
+              <div class="container">
+                <div class="cost">10$</div>
+                <ul class="features">
+                  <li>Hundreds of elements</li>
+                  <li>Style guide</li>
+                  <li>160 icons included</li>
+                  <li>Sketch files</li>
+                  <li>Commercial licence</li>
+                </ul>
+                <div class="btn-area">
+                  <button>Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card starter">
+              <div class="title">Starter</div>
+              <div class="container">
+                <div class="cost">Free</div>
+                <ul class="features">
+                  <li>Hundreds of elements</li>
+                  <li>Style guide</li>
+                  <li>30 icons included</li>
+                  <li>Personal licence</li>
+                </ul>
+                <div class="btn-area">
+                  <button>Get Free</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <div class="container">
+        <div class="why__content">
+          <div class="why__title">
+            <h3>Why do we use it?</h3>
+            <p>This sounded nonsense to Alice, so she said nothing, but set off
+              at once toward the Red Queen. To her surprise, she lost sight of her in a moment.</p>
+          </div>
+          <div id="app"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <a href="/">AppStarter</a>
+      <div class="author">
+        <p><span>Created with <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.95617 11.6243C6.40097 12.0727 5.59707 12.0727 5.04187 11.6243C4.8836 11.497 4.61955 11.2748 4.28425 10.9772C3.72841 10.4822 3.17108 9.95351 2.64749 9.40219C2.10644 8.84198 1.60686 8.24505 1.15251 7.6159C0.473096 6.77368 0.0720921 5.75019 0.00257892 4.68092C-0.0358105 3.68663 0.355822 2.72231 1.082 2.02305C2.42599 0.741299 4.54283 0.646907 6.00127 1.8037C7.45914 0.645217 9.57728 0.739667 10.9205 2.02305C11.6432 2.72024 12.0337 3.68023 11.9977 4.67068C11.9312 5.74224 11.5302 6.76838 10.8485 7.61152C10.3931 8.24265 9.89171 8.84108 9.3483 9.40219C8.82471 9.95131 8.26963 10.4822 7.71379 10.9772C7.37849 11.2748 7.1137 11.4963 6.95617 11.6243Z" fill="#FF4876"/>
+</svg>by</span><b>Sergey Azovskiy</b></p>
+        <p class="copy">© AppStarter, 2017</p>
+      </div>
+      <div class="social">
+                 <span>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M14.371 5.65767C14.371 9.9975 11.0696 15 5.03181 15C3.24242 14.9991 1.49273 14.4862 0 13.5252C0.259847 13.5536 0.521027 13.5687 0.782489 13.5707C2.26747 13.5707 3.7072 13.0729 4.8597 12.1609C3.44033 12.1269 2.20334 11.2103 1.79112 9.88706C1.995 9.92631 2.20235 9.94589 2.41017 9.94553C2.70346 9.94654 2.99541 9.90717 3.27738 9.82859C1.72728 9.50059 0.626797 8.15749 0.642402 6.61269C1.09834 6.8227 1.60835 6.96296 2.13067 6.98301C0.683352 5.99391 0.243704 4.09623 1.1147 2.5977C2.75677 4.63742 5.2228 5.88776 7.88026 6.02799C7.8237 5.78277 7.79528 5.53219 7.79554 5.28086C7.77181 3.49205 9.24151 2.02317 11.0783 2C11.9903 2.00042 12.8599 2.37549 13.4731 3.03298C14.2111 2.89118 14.9174 2.62281 15.5591 2.24038C15.3189 2.99515 14.8054 3.63928 14.1142 4.05297C14.766 3.97696 15.4021 3.80386 16 3.53973C15.5617 4.19485 15.0074 4.76898 14.363 5.23538C14.369 5.37831 14.371 5.52124 14.371 5.65767Z" fill="#B9BDC3"/>
+                      </svg>
+                  </span>
+        <span>
+                      <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66767 16V8.68305H0V5.88421H2.66831V3.77176C2.66831 1.33944 4.25605 0 6.60553 0C7.73045 0 8.71781 0.0733028 9 0.106622V2.68555H7.32869C6.05078 2.68555 5.81166 3.24531 5.81166 4.07164V5.88421H8.86951L8.47225 8.68305H5.81166V16H2.66188H2.66767Z" fill="#B9BDC3"/>
+                      </svg>
+                  </span>
+        <span>
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.62069C0 2.06875 2.06875 0 4.62069 0H11.3793C13.9312 0 16 2.06875 16 4.62069V11.3793C16 13.9312 13.9312 16 11.3793 16H4.62069C2.06875 16 0 13.9312 0 11.3793V4.62069ZM1.44828 4.75862C1.44828 2.93037 2.93037 1.44828 4.75862 1.44828H11.2414C13.0696 1.44828 14.5517 2.93037 14.5517 4.75862V11.2414C14.5517 13.0696 13.0696 14.5517 11.2414 14.5517H4.75862C2.93037 14.5517 1.44828 13.0696 1.44828 11.2414V4.75862ZM12.069 8C12.069 10.2472 10.2472 12.069 8 12.069C5.75277 12.069 3.93103 10.2472 3.93103 8C3.93103 5.75277 5.75277 3.93103 8 3.93103C10.2472 3.93103 12.069 5.75277 12.069 8ZM8 10.6207C9.44737 10.6207 10.6207 9.44737 10.6207 8C10.6207 6.55263 9.44737 5.37931 8 5.37931C6.55263 5.37931 5.37931 6.55263 5.37931 8C5.37931 9.44737 6.55263 10.6207 8 10.6207ZM13.1724 3.72414C13.1724 4.25738 12.7401 4.68966 12.2069 4.68966C11.6737 4.68966 11.2414 4.25738 11.2414 3.72414C11.2414 3.1909 11.6737 2.75862 12.2069 2.75862C12.7401 2.75862 13.1724 3.1909 13.1724 3.72414Z" fill="#B9BDC3"/>
+                      </svg>
+                  </span>
+      </div>
+    </div>
+  </footer>
+  <script src="../src/main.js"></script>
+  </body>
+  </html>
